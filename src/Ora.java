@@ -5,9 +5,6 @@ import java.util.Locale;
 
 public class Ora {
     private static final String DB_DRIVER = "oracle.jdbc.driver.OracleDriver";
-    //    private static final String DB_CONNECTION ="jdbc:oracle:thin:@192.168.1.22:1521:xe";
-//    private static final String DB_USER ="TEST";
-//    private static final String DB_PASSWORD ="1";
     private String DB_Connection = "jdbc:oracle:thin:@";
     private String ip, DbUser, DbPassword, BdName;
     private int BdPort;
