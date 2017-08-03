@@ -10,7 +10,7 @@ public class TestConnetBD {
             if (v.validate(ip))
                 break;
             else
-                System.out.println("Введён некорректный адрес");
+                System.out.println("Введён не корректный адрес");
         }
         while (true);
         System.out.println("Введите порт сервера БД");
